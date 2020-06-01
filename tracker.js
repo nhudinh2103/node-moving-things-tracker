@@ -7,7 +7,7 @@ var DEBUG_MODE = false;
 
 // DEFAULT_UNMATCHEDFRAMES_TOLERANCE 
 // This the number of frame we wait when an object isn't matched before considering it gone
-var DEFAULT_UNMATCHEDFRAMES_TOLERANCE = 5;
+var DEFAULT_UNMATCHEDFRAMES_TOLERANCE = 100;
 // IOU_LIMIT, exclude things from beeing matched if their IOU is lower than this
 // 1 means total overlap whereas 0 means no overlap
 var IOU_LIMIT = 0.05
